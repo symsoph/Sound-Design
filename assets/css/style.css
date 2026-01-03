@@ -165,7 +165,15 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 h1, h2 { font-family: var(--ff-amarante); }
-
+h3 { 
+  font-family: var(--ff-amarante); 
+  color: var(--white-2);
+  /* background-color: var(--orange-yellow-crayola); */
+}
+mark {
+  background-color: var(--orange-yellow-crayola);
+}
+p { color: var(--white-2); }
 body { background: var(--violet); }
 
 
